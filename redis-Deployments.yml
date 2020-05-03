@@ -8,8 +8,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      name: redies-app-pod
-       app: demo-voting-app
+        app: demo-voting-app
   template:
     metadata:
       name: redies-app-pod
